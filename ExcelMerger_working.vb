@@ -5,10 +5,10 @@
 ' than a sheet by the same name, with the same field is created in the master workbook.
 Sub MergeAllWorkbooks()
     ' Modify These Values accordingly
-    Const SavePath As String = "C:\Users\shoover\Desktop\"                                        ' Set the location to save the master workbook
-    Const SaveFile As String = "Combined_XML_Files_Y.xlsm"                                       ' Set the name of the master workbook
-    Const FolderPath As String = "P:\CASES\CitiMortgage_1673-001\DATA ANALYSIS\XML_Files_Y\"     ' Set folder path to point to the location of the files to be merged
-    Const CopyFile As String = "*.xml"                                                            ' Set the file name and extension of the files in FolderPath. filename should always be denoted with a "*" instead of an absolute name
+    Const SavePath As String = ""        ' Set the location to save the master workbook
+    Const SaveFile As String = ""        ' Set the name of the master workbook
+    Const FolderPath As String = "\"     ' Set folder path to point to the location of the files to be merged
+    Const CopyFile As String = "*.xml"   ' Set the file name and extension of the files in FolderPath. filename should always be denoted with a "*" instead of an absolute name
     
     Dim SummaryBook As Workbook         ' the master workbook which will be merged to
     Dim SummarySheet As Worksheet       ' the current sheet in the master workbook being merged to
